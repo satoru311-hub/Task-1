@@ -9,7 +9,7 @@ def load_data():
 
 df = load_data()
 
-st.title("計算問題 自己チェック")
+st.title("課題1　計算問題 自己チェック")
 
 student_id = st.text_input("学生番号（下3桁）を入力", max_chars=3)
 answer1 = st.text_input("問1のあなたの解答（例：1662.8）")
